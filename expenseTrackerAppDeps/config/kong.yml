@@ -1,0 +1,51 @@
+_format_version: "2.1"
+_transform: true
+
+services:
+  - name: kong-status
+    url: http://localhost:8001
+    routes:
+      - name: status-route
+        paths:
+          - /status
+        strip_path: true
+    plugins:
+      - name: request-termination
+        config:
+          status_code: 200
+          message: "OK"
+  - name: expense-service
+    url: http://host.docker.internal:9820
+    routes:
+      - name: expense-route
+        paths:
+          - /expense/v1
+        strip_path: false
+        preserve_host: false
+    plugins:
+      - name: custom-auth
+        config:
+          auth_service_url: "http://host.docker.internal:9898/auth/v1/ping"
+  
+  - name: data-science-service
+    url: http://host.docker.internal:8010
+    routes:
+      - name: ds-route
+        paths:
+          - /v1/ds
+        strip_path: false
+        preserve_host: false
+    plugins:
+      - name: custom-auth
+        config:
+          auth_service_url: "http://host.docker.internal:9898/auth/v1/ping"
+  
+
+  - name: auth-service
+    url: http://host.docker.internal:9898
+    routes:
+      - name: auth-route
+        paths:
+          - /auth/v1
+        strip_path: false
+        preserve_host: false
