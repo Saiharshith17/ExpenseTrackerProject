@@ -203,4 +203,4 @@ $ npm start
 <p>This project is licensed under the MIT License.</p>
 
 <h2>📧 Contact</h2>
-<p>For queries, reach out to <b>your-email@example.com</b></p>
+<p>For queries, please reach out to <b>eedarasaiharshith6699@gmail.com</b></p>
