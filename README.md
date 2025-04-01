@@ -74,7 +74,7 @@ This project is a robust microservices-based system that handles JWT token authe
 <hr>
 
 <h2>📌 Architecture Overview</h2>
-<img src="https://your-architecture-diagram.com/diagram.png" alt="Architecture Diagram" width="600"/>
+![Architecture Diagram](./.idea/Architecture.png)
 
 <p>
 The architecture follows a microservices pattern where:
