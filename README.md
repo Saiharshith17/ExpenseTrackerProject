@@ -74,7 +74,7 @@ This project is a robust microservices-based system that handles JWT token authe
 <hr>
 
 <h2>📌 Architecture Overview</h2>
-![Architecture Diagram](https://github.com/Saiharshith17/ExpenseTrackerProject/blob/main/Architecture.png)
+<img src="https://github.com/Saiharshith17/ExpenseTrackerProject/blob/main/Architecture.png" alt="Architecture Diagram" width="600"/>
 
 
 <p>
