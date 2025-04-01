@@ -11,6 +11,22 @@ This project is a robust microservices-based system that handles JWT token authe
 
 <hr>
 
+<h2>🖥️ Frontend Overview</h2>
+
+<p>
+The frontend of this project is built using <strong>ReactJS</strong> to provide a seamless user experience for authentication, expense management, and transaction insights. It features an interactive and responsive UI powered by Context API for state management.
+</p>
+
+<h3>🔹 Key Features</h3>
+<ul>
+    <li><strong>Authentication & Authorization</strong> – Secure login with JWT tokens.</li>
+    <li><strong>Expense Management</strong> – Users can add, edit, and delete expenses.</li>
+    <li><strong>Data Visualization</strong> – Expense trends displayed via charts.</li>
+    <li><strong>State Management</strong> – Utilizes Context API for efficient global state handling.</li>
+    <li><strong>Responsive UI</strong> – Optimized design for different devices.</li>
+</ul>
+<img src="https://github.com/Saiharshith17/ExpenseTrackerProject/blob/main/img.png" alt="Architecture Diagram" width="100%"/>
+
 <h2>🛠️ Services</h2>
 
 <h3>1. 🔐 AuthService</h3>
