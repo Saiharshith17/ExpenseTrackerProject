@@ -113,44 +113,89 @@ $ npm start
 <hr>
 
 <h2>🔗 API Endpoints</h2>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  th {
+    background-color: #f4f4f4;
+  }
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+</style>
+
 <table>
-    <tr>
-        <th>Service</th>
-        <th>Method</th>
-        <th>Endpoint</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td>AuthService</td>
-        <td>POST</td>
-        <td><code>/auth/login</code></td>
-        <td>Authenticate user & issue access token</td>
-    </tr>
-    <tr>
-        <td>AuthService</td>
-        <td>POST</td>
-        <td><code>/auth/refresh</code></td>
-        <td>Generate a new access token</td>
-    </tr>
-    <tr>
-        <td>UserService</td>
-        <td>GET</td>
-        <td><code>/user/details</code></td>
-        <td>Fetch user details</td>
-    </tr>
-    <tr>
-        <td>ExpenseService</td>
-        <td>POST</td>
-        <td><code>/expense/add</code></td>
-        <td>Add a new expense</td>
-    </tr>
-    <tr>
-        <td>ExpenseService</td>
-        <td>GET</td>
-        <td><code>/expense/list</code></td>
-        <td>Retrieve expenses</td>
-    </tr>
+  <tr>
+    <th>Service</th>
+    <th>Method</th>
+    <th>Endpoint</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>AuthService</td>
+    <td>POST</td>
+    <td>/auth/v1/login</td>
+    <td>Authenticate user and issue access token</td>
+  </tr>
+  <tr>
+    <td>AuthService</td>
+    <td>POST</td>
+    <td>/auth/v1/refreshToken</td>
+    <td>Generate a new access token using a refresh token</td>
+  </tr>
+  <tr>
+    <td>AuthService</td>
+    <td>POST</td>
+    <td>/auth/v1/signup</td>
+    <td>Register a new user</td>
+  </tr>
+  <tr>
+    <td>UserService</td>
+    <td>GET</td>
+    <td>/user/v1/details</td>
+    <td>Fetch user details</td>
+  </tr>
+  <tr>
+    <td>ExpenseService</td>
+    <td>GET</td>
+    <td>/expense/v1/getExpense</td>
+    <td>Retrieve a list of expenses</td>
+  </tr>
+  <tr>
+    <td>ExpenseService</td>
+    <td>POST</td>
+    <td>/expense/v1/addExpense</td>
+    <td>Add a new expense</td>
+  </tr>
+  <tr>
+    <td>ExpenseService</td>
+    <td>DELETE</td>
+    <td>/expense/v1/removeExpense</td>
+    <td>Remove an expense</td>
+  </tr>
+  <tr>
+    <td>IntegrationService</td>
+    <td>POST</td>
+    <td>/v1/ds/message</td>
+    <td>Process and convert bank transaction messages</td>
+  </tr>
+  <tr>
+    <td>Health Check</td>
+    <td>GET</td>
+    <td>/health</td>
+    <td>Check service health status</td>
+  </tr>
 </table>
+
 
 <hr>
 
