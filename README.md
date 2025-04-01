@@ -113,25 +113,6 @@ $ npm start
 <hr>
 
 <h2>🔗 API Endpoints</h2>
-<style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 18px;
-    text-align: left;
-  }
-  th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-  }
-  th {
-    background-color: #f4f4f4;
-  }
-  tr:hover {
-    background-color: #f1f1f1;
-  }
-</style>
 
 <table>
   <tr>
