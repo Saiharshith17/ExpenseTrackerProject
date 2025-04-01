@@ -5,43 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bffa1e1-4b3e-40ca-8dfd-13feec010560" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ept_frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/components/CustomBox.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/components/CustomText.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/components/Expense.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/components/Expense.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/components/Heading.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/components/Heading.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/components/navbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/components/navbar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/ExpenseTrackerGraph/ExpenseTrackerGraph.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/ExpenseTrackerGraph/ExpenseTrackerGraph.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/Home/Home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/Home/Home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/Login/Login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/Login/Login.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/Profile/Profile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/Profile/Profile.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/SignUp/SignUp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/SignUp/SignUp.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/Spends/Spends.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/Spends/Spends.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/SpendsInsights/SpendsInsights.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/SpendsInsights/SpendsInsights.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/dto/ExpenseDto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/src/pages/dto/UserDto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ept_frontend/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

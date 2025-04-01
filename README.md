@@ -1,7 +1,7 @@
 <h1 align="center" style="color:#2F4F4F;">Auth & Expense Management System</h1>
 
 <p align="center">
-    <img src="https://your-logo-url.com/logo.png" alt="Project Logo" width="200"/>
+    <img src="https://imgs.search.brave.com/7DSG7nhZAi4fvXfz-rcLd0copinI974vTx5bd3rCCdQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdj/ZG4uc3RhYmxlZGlm/ZnVzaW9ud2ViLmNv/bS8yMDI0LzMvMTgv/MzJhYmQ1MTAtMGYy/Ni00MDEzLWI2MTEt/YTVjNTIzNGJlN2U5/LmpwZw" alt="Project Logo" width="200"/>
 </p>
 
 <h2>🚀 Overview</h2>
