@@ -102,8 +102,8 @@ The architecture follows a microservices pattern where:
     <li>🤖 <b>IntegrationService</b> processes transactions with OpenAI LangChain.</li>
     <li>💰 <b>ExpenseService</b> handles all expense-related operations.</li>
 </ul>
-<img src="https://github.com/Saiharshith17/ExpenseTrackerProject/blob/main/img1.png" alt="Docker Images" width="100%"/>
-<img src="https://github.com/Saiharshith17/ExpenseTrackerProject/blob/main/img2.png" alt="Container Orchestration" width="100%"/>
+<img src="https://github.com/Saiharshith17/ExpenseTrackerProject/blob/main/img_1.png" alt="Docker Images" width="100%"/>
+<img src="https://github.com/Saiharshith17/ExpenseTrackerProject/blob/main/img_2.png" alt="Container Orchestration" width="100%"/>
 <hr>
 
 <h2>⚙️ Setup Instructions</h2>
