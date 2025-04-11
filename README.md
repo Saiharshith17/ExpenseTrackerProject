@@ -56,8 +56,10 @@ The frontend of this project is built using <strong>ReactJS</strong> to provide 
     <li>Secures API endpoints using Kong API Gateway.</li>
     <li>Handles real-time data via Kafka.</li>
 </ul>
+<h2>DataBases</h2>
 <img src="https://github.com/Saiharshith17/ExpenseTrackerProject/blob/main/img_3.png" alt="Database" width="100%"/>
-<img src="https://github.com/Saiharshith17/ExpenseTrackerProject/blob/main/postman.png" alt="Database" width="100%"/>
+<h2>OpenAi Integration Postman </h2>
+<img src="https://github.com/Saiharshith17/ExpenseTrackerProject/blob/main/postman.png" alt="Postman" width="100%"/>
 
 <hr>
 
